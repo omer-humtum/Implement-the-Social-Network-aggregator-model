@@ -4,6 +4,8 @@ class Parser::Socials::Instagram
   def photos
     instagram_records.collect { |instagram_record| instagram_record['picture'] }.compact
   end
+  
+  
 
   private
 
