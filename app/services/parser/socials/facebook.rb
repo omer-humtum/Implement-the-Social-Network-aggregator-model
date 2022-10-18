@@ -1,5 +1,7 @@
 class Parser::Socials::Facebook
   FACEBOOK_ENDPOINT = 'https://takehome.io/facebook'
+  
+  
 
   def statuses
     facebook_records.collect { |facebook_record| facebook_record['status'] }.compact

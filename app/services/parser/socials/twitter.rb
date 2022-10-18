@@ -1,5 +1,7 @@
 class Parser::Socials::Twitter
   TWITTER_ENDPOINT = 'https://takehome.io/twitter'
+  
+  
 
   def tweets
     twitter_records.collect { |twitter_record| twitter_record['tweet'] }.compact
